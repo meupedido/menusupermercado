@@ -1,0 +1,6 @@
+/* Evita o zoom automático do Safari/iOS ao focar campos de texto. */
+@media (max-width: 600px) {
+  .search input,
+  .customer-form input,
+  .customer-form select { font-size: 16px; }
+}
